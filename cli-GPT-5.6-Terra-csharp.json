@@ -1,0 +1,12 @@
+{
+  "homepage": "https://github.com/llm-supermarket/cli-GPT-5.6-Terra-csharp",
+  "description": "rclone-compatible file encryption CLI",
+  "version": "0.1.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/llm-supermarket/cli-GPT-5.6-Terra-csharp/releases/download/v0.1.0/cli-GPT-5.6-Terra-csharp-windows-amd64.exe",
+      "hash": "REPLACE_ON_RELEASE",
+      "bin": [["cli-GPT-5.6-Terra-csharp-windows-amd64.exe", "cli-GPT-5.6-Terra-csharp"]]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.3.0" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/RcloneEncrypt/RcloneEncrypt.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../../kr9tu4e1da4u3nifdd99g9tf5o" Link="kr9tu4e1da4u3nifdd99g9tf5o" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../../Iyxcijgc9bp3o5Y0npW6xqUvwWNcc3MA4SadB0sR6cY" Link="Iyxcijgc9bp3o5Y0npW6xqUvwWNcc3MA4SadB0sR6cY" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
