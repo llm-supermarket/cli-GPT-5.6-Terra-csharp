@@ -70,7 +70,9 @@ jobs:
       - name: Update package manifests
         shell: pwsh
         run: ./update-packages.ps1 -Version "${{ github.ref_name }}" -ArtifactsPath artifacts
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update package manifests to ${{ github.ref_name }}"
-          file_pattern: "cli-GPT-5.6-Terra-csharp.json Formula/cli-GPT-5.6-Terra-csharp.rb"
+      - name: Commit updated manifests to main
+        shell: bash
+        run: |
+          git add cli-GPT-5.6-Terra-csharp.json Formula/cli-GPT-5.6-Terra-csharp.rb
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "chore: update package manifests to ${{ github.ref_name }}"
+          git push origin HEAD:main
