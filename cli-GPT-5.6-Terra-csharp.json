@@ -5,8 +5,13 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/llm-supermarket/cli-GPT-5.6-Terra-csharp/releases/download/v0.1.0/cli-GPT-5.6-Terra-csharp-windows-amd64.exe",
-      "hash": "REPLACE_ON_RELEASE",
-      "bin": [["cli-GPT-5.6-Terra-csharp-windows-amd64.exe", "cli-GPT-5.6-Terra-csharp"]]
+      "hash": "b0b14b1749775e1eb916f691276d5e956f886227684a764ec7f3a80576023d88",
+      "bin": [
+        [
+          "cli-GPT-5.6-Terra-csharp-windows-amd64.exe",
+          "cli-GPT-5.6-Terra-csharp"
+        ]
+      ]
     }
   }
 }
